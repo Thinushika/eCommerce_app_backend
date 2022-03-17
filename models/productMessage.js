@@ -5,6 +5,8 @@ const productSchema = mongoose.Schema({
   sku: String,
   productName: String,
   price: Number,
+  qty: String,
+  desc: String,
   tags: [String],
   selectedFile: String,
   favorite: {
